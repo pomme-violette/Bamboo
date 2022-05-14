@@ -11,15 +11,6 @@ requires_python = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 summary = "Classes Without Boilerplate"
 
 [[package]]
-name = "beautifulsoup4"
-version = "4.11.1"
-requires_python = ">=3.6.0"
-summary = "Screen-scraping library"
-dependencies = [
-    "soupsieve>1.2",
-]
-
-[[package]]
 name = "certifi"
 version = "2021.10.8"
 summary = "Python package for providing Mozilla's CA Bundle."
@@ -135,12 +126,6 @@ version = "2.4.0"
 summary = "Sorted Containers -- Sorted List, Sorted Dict, Sorted Set"
 
 [[package]]
-name = "soupsieve"
-version = "2.3.2.post1"
-requires_python = ">=3.6"
-summary = "A modern CSS selector implementation for Beautiful Soup."
-
-[[package]]
 name = "trio"
 version = "0.20.0"
 requires_python = ">=3.7"
@@ -198,7 +183,7 @@ dependencies = [
 
 [metadata]
 lock_version = "3.1"
-content_hash = "sha256:996f33dba2eaed5df9bfc4190151bf0daccc6701db168aaeb74589e810ec7481"
+content_hash = "sha256:dc1d3b55a7d8fa261df98bd4f9711239b07f9ddb9fc0d3ebf7f6a0fa1a8e71f5"
 
 [metadata.files]
 "async-generator 1.10" = [
@@ -208,10 +193,6 @@ content_hash = "sha256:996f33dba2eaed5df9bfc4190151bf0daccc6701db168aaeb74589e81
 "attrs 21.4.0" = [
     {file = "attrs-21.4.0-py2.py3-none-any.whl", hash = "sha256:2d27e3784d7a565d36ab851fe94887c5eccd6a463168875832a1be79c82828b4"},
     {file = "attrs-21.4.0.tar.gz", hash = "sha256:626ba8234211db98e869df76230a137c4c40a12d72445c45d5f5b716f076e2fd"},
-]
-"beautifulsoup4 4.11.1" = [
-    {file = "beautifulsoup4-4.11.1-py3-none-any.whl", hash = "sha256:58d5c3d29f5a36ffeb94f02f0d786cd53014cf9b3b3951d42e0080d8a9498d30"},
-    {file = "beautifulsoup4-4.11.1.tar.gz", hash = "sha256:ad9aa55b65ef2808eb405f46cf74df7fcb7044d5cbc26487f96eb2ef2e436693"},
 ]
 "certifi 2021.10.8" = [
     {file = "certifi-2021.10.8-py2.py3-none-any.whl", hash = "sha256:d62a0163eb4c2344ac042ab2bdf75399a71a2d8c7d47eac2e2ee91b9d6339569"},
@@ -402,10 +383,6 @@ content_hash = "sha256:996f33dba2eaed5df9bfc4190151bf0daccc6701db168aaeb74589e81
 "sortedcontainers 2.4.0" = [
     {file = "sortedcontainers-2.4.0-py2.py3-none-any.whl", hash = "sha256:a163dcaede0f1c021485e957a39245190e74249897e2ae4b2aa38595db237ee0"},
     {file = "sortedcontainers-2.4.0.tar.gz", hash = "sha256:25caa5a06cc30b6b83d11423433f65d1f9d76c4c6a0c90e3379eaa43b9bfdb88"},
-]
-"soupsieve 2.3.2.post1" = [
-    {file = "soupsieve-2.3.2.post1-py3-none-any.whl", hash = "sha256:3b2503d3c7084a42b1ebd08116e5f81aadfaea95863628c80a3b774a11b7c759"},
-    {file = "soupsieve-2.3.2.post1.tar.gz", hash = "sha256:fc53893b3da2c33de295667a0e19f078c14bf86544af307354de5fcf12a3f30d"},
 ]
 "trio 0.20.0" = [
     {file = "trio-0.20.0-py3-none-any.whl", hash = "sha256:fb2d48e4eab0dfb786a472cd514aaadc71e3445b203bc300bad93daa75d77c1a"},
